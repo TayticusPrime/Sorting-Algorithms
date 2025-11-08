@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorting</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <canvas id="sorting_canvas" name="sorting_canvas"></canvas>
+    <div>
+        <select name="sorting_select" id="sorting_select">
+            <option value="bubblesort">BubbleSort</option>
+            <option value="pingpongsort">PingPongSort</option>
+            <option value="selectionsort">SelectionSort</option>
+            <option value="insertionsort">InsertionSort</option>
+            <option value="shellsort">ShellSort</option>
+            <option value="quicksort">QuickSort</option>
+            <option value="mergesort">MergeSort</option>
+            <option value="heapsort">HeapSort</option>
+            <option value="radixsort">RadixSort</option>
+        </select>
+        <input type="number" id="array_size_input" name="array_size_input" value=99 min="1" max="999"></input>
+        <button type="submit" id="generate_button" name="generate_button">GENERATE</button>
+        <button type="submit" id="reset_button" name="reset_button">RESET</button>
+        <button type="submit" id="sort_button" name="sort_button">SORT</button>
+        <label for="speed_slider">Speed</label>
+        <input type="range" id="speed_slider" name="speed_slider" min="0" max="1000" value="1000"></input>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
