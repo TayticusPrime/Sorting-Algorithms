@@ -8,6 +8,8 @@ The following repository contains an implementation displaying a graphical repre
 
 ## Usage
 
+Access the web-interface: [https://tayticusprime.github.io/Sorting-Algorithms/](https://tayticusprime.github.io/Sorting-Algorithms/)
+
 `DROPDOWN - Algorithm` – Choose which algorithm to visualize (e.g., BubbleSort, QuickSort, MergeSort, etc.)  
 `SIZE` – Set how many elements to include in the array (1–999)  
 `GENERATE` – Creates a new randomized list of bars based on the selected array size  
